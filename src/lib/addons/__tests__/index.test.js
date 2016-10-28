@@ -1,5 +1,6 @@
 import InfoBox from "../InfoBox";
 import MarkerClusterer from "../MarkerClusterer";
+import CanvasLayer from "../CanvasLayer";
 
 describe(`addons`, () => {
   describe(`InfoBox`, () => {
@@ -13,4 +14,10 @@ describe(`addons`, () => {
       expect(MarkerClusterer).toBeDefined();
     });
   });
+
+  describe(`CanvasLayer`, () => {
+    it(`should be exported`, () => {
+      expect(CanvasLayer).toBeDefined();
+    })
+  })
 });

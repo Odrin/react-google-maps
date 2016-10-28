@@ -55,6 +55,7 @@ import {
 
 import {
   MarkerClustererExample,
+  CanvasLayerExample,
 } from "./pages/addons";
 
 const history = useRouterHistory(createHistory)({
@@ -91,6 +92,7 @@ export default class App extends Component {
           </Route>
           <Route path="addons">
             <Route path="marker-clusterer" component={MarkerClustererExample} />
+            <Route path="canvas-layer" component = {CanvasLayerExample} />
           </Route>
           <Route path="async" component={PageWithIframeEntry} />
           <Redirect path="*" to="/" />

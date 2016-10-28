@@ -105,6 +105,11 @@ export default class Application extends Component {
                   Marker clusterer addon with Marker
                 </MenuItem>
               </LinkContainer>
+              <LinkContainer to="/addons/canvas-layer">
+                <MenuItem>
+                  Canvas Layer addon
+                </MenuItem>
+              </LinkContainer>
             </NavDropdown>
           </Nav>
           <Navbar.Collapse style={{ marginRight: 100 }}>
