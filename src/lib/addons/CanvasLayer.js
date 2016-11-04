@@ -7,7 +7,7 @@ import {
 
 import {
     MAP,
-    CANVAS_LAYER
+    CANVAS_LAYER,
 } from "../constants";
 
 import {
