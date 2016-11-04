@@ -8,6 +8,7 @@ import {
   InfoWindow,
   KmlLayer,
   FusionTablesLayer,
+  TrafficLayer,
   Marker,
   OverlayView,
   Polygon,
@@ -26,6 +27,7 @@ describe(`index`, () => {
     expect(InfoWindow).toBeDefined();
     expect(KmlLayer).toBeDefined();
     expect(FusionTablesLayer).toBeDefined();
+    expect(TrafficLayer).toBeDefined();
     expect(Marker).toBeDefined();
     expect(OverlayView).toBeDefined();
     expect(Polygon).toBeDefined();

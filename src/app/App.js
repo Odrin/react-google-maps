@@ -36,6 +36,7 @@ import {
   KmlLayerExample,
   FusionTablesLayerExample,
   PopUpInfoWindowExample,
+  TrafficLayerExample,
 } from "./pages/basics";
 
 import {
@@ -77,6 +78,7 @@ export default class App extends Component {
             <Route path="kml-layer" component={KmlLayerExample} />
             <Route path="fusion-tables-layer" component = {FusionTablesLayerExample} />
             <Route path="pop-up-window" component={PopUpInfoWindowExample} />
+            <Route path="traffic-layer" component={TrafficLayerExample} />
           </Route>
           <Route path="events">
             <Route path="simple-click-event" component={SimpleClickEventExample} />

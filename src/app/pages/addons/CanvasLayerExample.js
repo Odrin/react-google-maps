@@ -36,7 +36,7 @@ class CanvasLayerExampleGoogleMap extends Component {
 
     updateHandler = () => {
         let canvas = this.canvasLayer.getCanvas();
-        var context = canvas.getContext('2d');
+        var context = canvas.getContext(`2d`);
         var rectLatLng = new google.maps.LatLng(41.850033, -87.6500523);
         var rectWidth = 6.5;
         var map = this.context[MAP];
@@ -45,7 +45,7 @@ class CanvasLayerExampleGoogleMap extends Component {
         var canvasHeight = canvas.height;
         context.clearRect(0, 0, canvasWidth, canvasHeight);
         // we like our rectangles hideous
-        context.fillStyle = 'rgba(230, 77, 26, 1)';
+        context.fillStyle = `rgba(230, 77, 26, 1)`;
 
         /* We need to scale and translate the map for current view.
          * see https://developers.google.com/maps/documentation/javascript/maptypes#MapCoordinates
@@ -77,17 +77,17 @@ class CanvasLayerExampleGoogleMap extends Component {
     render() {
         return (
             <GoogleMap
-                defaultZoom = {5}
-                defaultCenter = {{lat: 41.850033, lng: -87.6500523 }}
+                defaultZoom={5}
+                defaultCenter={{lat: 41.850033, lng: -87.6500523 }}
             >
                 <CanvasLayer
-                    ref = {this.setCanvasLayer}
-                    options = {{
+                    ref={this.setCanvasLayer}
+                    options={{
                         animate: false,
                         resolutionScale: window.devicePixelRation || 1,
                         resizeHandler: _.noop,
                     }}
-                    updateHandler = {this.updateHandler}
+                    updateHandler={this.updateHandler}
                 />
             </GoogleMap>
         );
@@ -99,11 +99,11 @@ export default class CanvasLayerExample extends Component {
         const Container = withGoogleMap(CanvasLayerExampleGoogleMap);
         return (
             <Container 
-                containerElement = {
-                    <div style = {{height: `100%`}} />
+                containerElement={
+                    <div style={{height: `100%`}} />
                 }
-                mapElement = {
-                    <div style = {{height: `100%`}} />
+                mapElement={
+                    <div style={{height: `100%`}} />
                 }
             />
         );
