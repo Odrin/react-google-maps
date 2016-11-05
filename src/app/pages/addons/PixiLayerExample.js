@@ -21,7 +21,7 @@ import {
     default as PixiLayer,
 } from '../../../lib/addons/PixiLayer';
 
-var PIXI = require('pixi.js');
+var PIXI = require(`pixi.js`);
 
 class PixiLayerExampleGoogleMap extends Component {
     static contextTypes = {

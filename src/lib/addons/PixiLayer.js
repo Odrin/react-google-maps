@@ -33,11 +33,11 @@ const publicMethodMap = {
     addLayer(pixiLayer) { return pixiLayer.addLayer(); },
     getContainer(pixiLayer) { return pixiLayer.getContainer(); },
     getRenderer(pixiLayer) { return pixiLayer.getRenderer(); },
-    clear(pixiLayer) { return pixiLayer.clear(); }
+    clear(pixiLayer) { return pixiLayer.clear(); },
 }
 
 const controlledPropUpdaterMap = {
-    options(pixiLayer, options) { pixiLayer.setOptions(options); }
+    options(pixiLayer, options) { pixiLayer.setOptions(options); },
 }
 
 function getInstanceFromComponent(component) {
