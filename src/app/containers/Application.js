@@ -111,6 +111,11 @@ export default class Application extends Component {
                   Canvas Layer addon
                 </MenuItem>
               </LinkContainer>
+              <LinkContainer to="/addons/pixi-layer">
+                <MenuItem>
+                  Pixi.js Layer addon
+                </MenuItem>
+              </LinkContainer>
             </NavDropdown>
           </Nav>
           <Navbar.Collapse style={{ marginRight: 100 }}>
