@@ -80,6 +80,7 @@ export default _.flowRight(
         const pixiLayer = getInstanceFromComponent(this);
         if (pixiLayer) {
             pixiLayer.setMap(null);
+            pixiLayer.canvasLayer.setMap(null);
         }
     },
 
