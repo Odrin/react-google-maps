@@ -79,6 +79,7 @@ export default _.flowRight(
     componentWillUnmount() {
         const pixiLayer = getInstanceFromComponent(this);
         if (pixiLayer) {
+            pixiLayer.clear();
             pixiLayer.setMap(null);
             pixiLayer.canvasLayer.setMap(null);
         }
