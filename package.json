@@ -106,7 +106,7 @@
   "dependencies": {
     "babel-runtime": "^6.11.6",
     "can-use-dom": "^0.1.0",
-    "canvaslayer": "git+https://github.com/RishabhJain96/CanvasLayer.git",
+    "canvaslayer": "RishabhJain96/CanvasLayer",
     "google-maps-infobox": "^1.1.13",
     "invariant": "^2.2.1",
     "lodash": "^4.16.2",
