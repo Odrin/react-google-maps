@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="6.1.0"></a>
+# [6.1.0](https://github.com/tomchentw/react-google-maps/compare/v6.0.1...v6.1.0) (2016-12-19)
+
+
+### Bug Fixes
+
+* **HeatmapLayer:** HeatmapLayer constructor fix ([842842a](https://github.com/tomchentw/react-google-maps/commit/842842a))
+* **PixiLayer:** Clear stage on unmount ([40b8d8b](https://github.com/tomchentw/react-google-maps/commit/40b8d8b))
+* **Unmount:** Set canvas layer map to null when unmounted ([bb44391](https://github.com/tomchentw/react-google-maps/commit/bb44391))
+
+
+### Features
+
+* **CanvasLayer:** Added source, example, info for CanvasLayer addon ([2abf48d](https://github.com/tomchentw/react-google-maps/commit/2abf48d))
+* **FusionTablesLayer:** Added source, example, info for FusionTablesLayer ([fd01d44](https://github.com/tomchentw/react-google-maps/commit/fd01d44))
+* **PixiLayer:** Added pixi.js Layer on top of CanvasLayer ([ccbf176](https://github.com/tomchentw/react-google-maps/commit/ccbf176))
+* **TrafficLayer:** added TrafficLayer and TrafficLayerExample ([65e3e13](https://github.com/tomchentw/react-google-maps/commit/65e3e13))
+
+
+
 <a name="6.0.1"></a>
 ## [6.0.1](https://github.com/tomchentw/react-google-maps/compare/v6.0.0...v6.0.1) (2016-10-14)
 
